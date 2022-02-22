@@ -5,7 +5,7 @@ VS Code
 
 ## Etapas do projeto
 
-1. Estudei a documentação de React e CSS e procurei exemplos práticos de como utilizar eventos no react, importar CSS 
+1. Estudei a documentação de React e CSS e procurei exemplos práticos de como utilizar parametros e metodos no react, importar CSS e estruturar os arquivos index.css, index.html e index.js 
 
 1. A partir do esqueleto para fazer o teste, programei o botão "ADD" para adicionar novas tarefas a lista
 
