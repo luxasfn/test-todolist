@@ -1,0 +1,68 @@
+/*background da página*/
+body {
+    background-image: linear-gradient(to right, purple , rgb(31, 31, 224), rgb(129, 21, 129));
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#container {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur( 7px); 
+    border-radius: 10px; 
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-left: auto;
+            margin-right: auto;
+                width: 60em;
+                text-align: center  
+            }
+
+#title {
+    color:aliceblue;
+}
+
+#task {
+    color: aliceblue;
+    text-align: center;
+    list-style: none;
+    
+}
+
+#input {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur( 7px); 
+    border-radius: 10px; 
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-left: auto;
+    color: aliceblue;
+}
+/*css para quando a caixa de input estiver selecionada*/
+#input:focus {
+    border-radius: 10px; 
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    outline: none;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#btnAdd {
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur( 7px); 
+    border-radius: 10px; 
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-left: auto;
+    color: aliceblue
+    
+
+}
+/*CSS para deixar riscado as tag concluídas*/
+.crossed-line {
+    text-decoration: line-through;
+    
+}
+
+     
+       
